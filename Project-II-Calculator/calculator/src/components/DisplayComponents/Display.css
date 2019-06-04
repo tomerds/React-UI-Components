@@ -1,0 +1,16 @@
+
+.display {
+  border: black solid 1px;
+  height: 150px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+}
+
+.display-number {
+  color: white;
+  font-size: 60px;
+  margin-right: 20px;
+}

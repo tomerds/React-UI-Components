@@ -1,1 +1,80 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+.HeaderContent {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: 80%;
+  
+  float: right;
+}
+
+.header-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  margin-left: 5px;
+
+}
+
+.header-title h1 {
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
+.header-title h2 {
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: 300;
+  padding-right: 0.5rem;
+}
+
+.header-title p {
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: 300;
+  padding-right: 0.5rem;
+}
+
+.header-content {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+ .image-holder {
+  border: lightgray solid 1px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-right: 10px;
+}
+
+.image-holder img {
+  width: 70%;
+  height: auto;
+}
+
+.HeaderImage {
+  
+  width:20%;
+}
+
+
+
+
